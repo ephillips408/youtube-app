@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import youtube from "../apis/youtube";
 
-const KEY = process.env.REACT_APP_YOUTUBE_API_KEY;
+// const KEY = your key goes here.
 
 const useVideos = (defaultSearchTerm) => {
   const [videos, setVideos] = useState([]);
